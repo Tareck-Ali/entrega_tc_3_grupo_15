@@ -48,13 +48,14 @@ model = Pipeline([
 
 model.fit(X_train, y_train)
 
-predictions = model.predict(X_val)
-
-print(classification_report(y_val, predictions))
-
 model_path = Path(settings.baseline)
 model_path.parent.mkdir(parents=True, exist_ok=True)
 
 joblib.dump(model, model_path)
 
 print(f"Model saved to {model_path}")
+
+def predict():
+    predictions = model.predict(X_val)
+
+    print(classification_report(y_val, predictions))
