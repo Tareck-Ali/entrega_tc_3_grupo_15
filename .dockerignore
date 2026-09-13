@@ -1,0 +1,14 @@
+__pycache__
+*.pyc
+.git
+.gitignore
+.venv
+venv
+.env
+
+data/
+dags/
+
+models/baseline.joblib
+
+tests/
