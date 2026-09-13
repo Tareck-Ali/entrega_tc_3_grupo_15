@@ -5,3 +5,10 @@ Bibliotecas usadas
 - Prometheus
 - Airflow
 - SciKit-Learn
+- Skl2onnx
+- Onnx
+- Onnxruntime
+
+Dados
+    https://www.kaggle.com/datasets/saharalaa/medical-abstracts-tc-corpus
+
