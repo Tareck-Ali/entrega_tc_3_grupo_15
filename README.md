@@ -35,3 +35,9 @@ Portanto, a AWS foi escolhida principalmente pela combinação de serviços gere
 ## Dados
     https://www.kaggle.com/datasets/saharalaa/medical-abstracts-tc-corpus
 
+# Incompleto:
+### Grafana
+Grafana não foi possível fazer o dashboard.
+Em tese, seria ideal fazer
+dashboards/ml_api.json
+provisioning/dashboards/ml_api.json
