@@ -1,0 +1,10 @@
+pandas
+scikit-learn
+joblib
+skl2onnx
+onnx
+onnxruntime
+fastapi
+uvicorn
+prometheus-fastapi-instrumentator
+pytest
