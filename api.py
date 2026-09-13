@@ -2,6 +2,7 @@ import onnxruntime as ort
 
 from fastapi import FastAPI
 from pydantic import BaseModel
+from prometheus_fastapi_instrumentator import Instrumentator
 
 import settings
 
@@ -30,3 +31,6 @@ def predict(request: PredictionRequest):
     return {
         "prediction": result[0][0]
     }
+
+
+Instrumentator().instrument(app).expose(app)
